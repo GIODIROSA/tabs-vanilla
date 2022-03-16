@@ -1,1 +1,1 @@
-console.log("hola a todos estoy vinculado 🤣");
+// console.log("hola a todos estoy vinculado 🤣");
