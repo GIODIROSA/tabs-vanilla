@@ -36,10 +36,11 @@ body {
   background-color: #ddd;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
+  width: 200px;
 }
 
 .btn-container {
-  width: 400px;
+  width: 800px;
   align-self: flex-start;
 }
 
@@ -57,12 +58,12 @@ body {
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   padding: 2rem 1.5rem;
-  width: 400px;
-  background-color: #fff;
+  width: 800px;
+  background-color: #ededed;
 }
 
 .tab-btn.active {
-  background-color: #fff;
+  background-color: red;
   color: rgb(92, 18, 18);
   transition: color 0.8s linear 0.2s;
   transition: background-color 0.3s linear 0.2s;

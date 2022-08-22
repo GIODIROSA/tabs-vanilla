@@ -1,15 +1,11 @@
-// console.log("hola a todos estoy vinculado 🤣");
 
 const btns = document.querySelectorAll(".tab-btn");
 const about = document.querySelector(".about");
 const articles = document.querySelectorAll(".content");
 
-// console.log(btns);
-// console.log(about);
-// console.log(articles);
+
 
 about.addEventListener("click", (e) => {
-  //   console.log(e.target.dataset.id);
   //EFECTO BURBUJA. ELEMENTO IMPORTANTE
   const id = e.target.dataset.id;
   if (id) {
